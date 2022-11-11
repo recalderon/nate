@@ -27,14 +27,17 @@
 *{	
 	body{
 		font-family: "Lemon";
-		background-color: #202020;
-		background-image:
-		linear-gradient(45deg, #000 25%, transparent 25%), 
-		linear-gradient(135deg, #000 25%, transparent 25%),
-		linear-gradient(45deg, transparent 75%, #000 75%),
-		linear-gradient(135deg, transparent 75%, #000 75%);
-		background-size:25px 25px; /* Must be a square */
-		background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px; /* Must be half of one side of the square */
+		// background-color: #202020;
+		// background-image:
+		// linear-gradient(45deg, #000 25%, transparent 25%), 
+		// linear-gradient(135deg, #000 25%, transparent 25%),
+		// linear-gradient(45deg, transparent 75%, #000 75%),
+		// linear-gradient(135deg, transparent 75%, #000 75%);
+		// background-size:25px 25px; /* Must be a square */
+		// background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px; /* Must be half of one side of the square */
+		background-image: url('https://recalderon.github.io/nate/assets/dist/img/back-morcegos.png');
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 }
 
@@ -54,11 +57,14 @@ form{
 	@media (max-width: 781px) {
 		max-width: 100%;
 	}
+	@media (max-width: 1200px) {
+		max-width: 80%;
+	}
 }
 
 #imagemlateral{
 	border: 5px solid #cc8fb8;
-	width: 80%;
+	width: 90%;
 	height: 400px; 
 	transform: rotate(-10deg);
 	z-index: 10;
@@ -79,10 +85,14 @@ form{
 	p{
 		font-family: "Neucha";
 		font-size: 1.2rem;
-		color: #cc8fb8;
+		//color: #cc8fb8;
+		color: white;
 		// position:absolute;
 		// left: 5%;
 		// z-index: 11;
+		@media (max-width: 1200px) {
+			font-size: 1rem;
+		}
 	}
 }
 
@@ -111,6 +121,9 @@ form{
 				height: 100px;
 				left: -20px;
 			}
+			@media (max-width: 1200px) {
+				height: 300px;
+			}
 		}
 		&#skull{
 			top: -70px;
@@ -121,6 +134,9 @@ form{
 				top: -29px;
 				right: -35px;
 				height: 100px;
+			}
+			@media (max-width: 1200px) {
+				top: 0;
 			}
 		}
 		&#heart{
