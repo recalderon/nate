@@ -27,14 +27,15 @@
 *{	
 	body{
 		font-family: "Lemon";
-		background-color: #202020;
-		background-image:
-		linear-gradient(45deg, #000 25%, transparent 25%), 
-		linear-gradient(135deg, #000 25%, transparent 25%),
-		linear-gradient(45deg, transparent 75%, #000 75%),
-		linear-gradient(135deg, transparent 75%, #000 75%);
-		background-size:25px 25px; /* Must be a square */
-		background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px; /* Must be half of one side of the square */
+		// background-color: #202020;
+		// background-image:
+		// linear-gradient(45deg, #000 25%, transparent 25%), 
+		// linear-gradient(135deg, #000 25%, transparent 25%),
+		// linear-gradient(45deg, transparent 75%, #000 75%),
+		// linear-gradient(135deg, transparent 75%, #000 75%);
+		// background-size:25px 25px; /* Must be a square */
+		// background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px; /* Must be half of one side of the square */
+		background-image: url('https://recalderon.github.io/nate/assets/dist/img/back-morcegos.png');
 	}
 }
 
