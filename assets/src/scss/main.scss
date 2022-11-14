@@ -120,12 +120,12 @@ form{
 		&#coracoes{
 			left: -100px;
 			height: 450px;
+			@media (max-width: 1200px) {
+				height: 300px;
+			}
 			@media (max-width: 781px) {
 				height: 100px;
 				left: -20px;
-			}
-			@media (max-width: 1200px) {
-				height: 300px;
 			}
 		}
 		&#skull{
@@ -133,13 +133,13 @@ form{
 			right: -90px;
 			left: unset;
 			transform: rotate(45deg);
+			@media (max-width: 1200px) {
+				top: 0;
+			}
 			@media (max-width: 781px) {
 				top: -29px;
 				right: -35px;
 				height: 100px;
-			}
-			@media (max-width: 1200px) {
-				top: 0;
 			}
 		}
 		&#heart{
